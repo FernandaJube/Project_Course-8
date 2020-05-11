@@ -85,10 +85,11 @@ confusionMatrix(pred_dt, test1$classe)
 ```
 
 ```{r dt2, echo=TRUE }
-mode_dt$finalModel
 library(rattle)
 fancyRpartPlot(mode_dt)
 ```
+
+
 As we can check from the decision tree chart, the species are majority A class. 
 
 ### Conclusion
